@@ -1,31 +1,36 @@
 $header-color: rgb(146, 187, 214);
 $welcome-color: rgb(71, 73, 111);
 $link-color: blue;
+$header-font: 40px;
+$welcome-header-font: 30px;
+$standard-font: 20px;
+$border: 1px solid $header-color;
 
 .header {
     color: $header-color;
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: $header-font;
+    border: $border;
 }
 
 #welcome {
     color: $welcome-color;
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: $welcome-header-font;
 }
 
 #selection {
     color: $welcome-color;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: $standard-font;
 }
 
 .book {
     text-align: center;
-    font-size: 20px;
+    font-size: $standard-font;
 }
 
 img {
